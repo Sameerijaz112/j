@@ -21,45 +21,23 @@ body {
     background-color: #20a840;
 }
 
-.heading{
-    font-size:20px;
-    font-weight:600;
-    color:#3D5AFE;
-
+.cstm-height-card .card-img-top {
+  height: 100px;
+  object-fit: cover;
 }
-
-  .line1{
-    color:#000;
-    font-size:12px;
-
-  }
-   .line2{
-    color:#000;
-    font-size:12px;
-    
-  }
-   .line3{
-    color:#000;
-    font-size:12px;
-    
-  }
-
-  .cards{
-
-    transition: all 0.2s ease;
-    cursor: pointer;
-    
-
-  }
-    
-
-
-.cards:hover{
-
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    transform: scale(1.1);
+img{
+  height: 300px;
+  width: ;
+}
+.card:hover{
+  background-color: rgb(171, 255, 4);
+  transition: 1.0s all;
 }
 .carousel-item{
-    height: 80vh;
-    
+  height: 40vh;
+  
+} 
+h1{
+  display: flex;
+  justify-content: center;
 }
