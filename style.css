@@ -1,0 +1,65 @@
+.one{
+    height:500px;
+    width: 500px;
+}
+header{
+background-image: url(./assect/igor-karimov-fXmmSz5KkO8-unsplash.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: repeat;
+height:60vh ;
+}
+.nav-item:hover{
+    background-color: rgb(23, 197, 113);
+    transition:1.0s all ;
+}
+.two{
+    height:500px ;
+    width:500px ;
+}
+body {
+    background-color: #20a840;
+}
+
+.heading{
+    font-size:20px;
+    font-weight:600;
+    color:#3D5AFE;
+
+}
+
+  .line1{
+    color:#000;
+    font-size:12px;
+
+  }
+   .line2{
+    color:#000;
+    font-size:12px;
+    
+  }
+   .line3{
+    color:#000;
+    font-size:12px;
+    
+  }
+
+  .cards{
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+    
+
+  }
+    
+
+
+.cards:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+.carousel-item{
+    height: 80vh;
+    
+}
